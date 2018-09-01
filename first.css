@@ -1,0 +1,49 @@
+.main{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+
+
+
+.one,.two,.three{
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+@media (min-width:600px) {
+.main{
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.row1{
+  width: 30%;
+}
+.row2{
+  width: 30%;
+}
+.row3{
+  width: 30%;
+}
+  }
+  @media (min-width:800px) {
+  .main{
+    width: 800px;
+    margin: auto;
+    display :flex;
+    justify-content: center;
+  }
+  .row1{
+    width: 30%;
+  }
+  .row2{
+    width: 30%;
+  }
+  .row3{
+    width: 30%;
+  }
+
+}
